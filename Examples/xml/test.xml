@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<books type="fiction">
+  <book author="George Orwell">
+    <title>1984</title>
+  </book>
+  <book author="Isaac Asimov">
+    <title>Foundation</title>
+    <price>$15.61</price>
+  </book>
+  <book author="Robert A Heinlein">
+    <title>Stranger in a Strange Land</title>
+    <price discount="10%">$18.00</price>
+  </book>
+</books>
