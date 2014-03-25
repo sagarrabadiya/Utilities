@@ -16,22 +16,25 @@ pdf handling( pdf generation)
 Excel reading and writing
 and many usefull functions as follow
 
-removeParameterFromRequestURI()  Removes parameter from url
-changeArgumentValueInRequestURI() change parameter in url
-in_string() return true or false if given string is present in or not
-checkArray() if given variable is array then return true
-getDay() return day of the year from date
-isInternetExplorer() if browser is internet explorer return true
-getMonthShortName() will return array of months' name 3 char name like jan, feb etc
-getMonthFullName() will return array of months' full name
-TimeSince() will return how old the time is from now
-truncate() will only return the content with specified length remaining content will be replaced by ...
-getRandomChars() will give random string of given length
-isImageFile() return true if given file is image
-downloadFile() will make download given file to user
-sendMail() will send email to specified reciepents
-Array2String() will convert array in to get method string
-r() will display the passed variable recursively
+removeParameterFromRequestURI()  ===> Removes parameter from url
+changeArgumentValueInRequestURI() ===> change parameter in url
+in_string() ===> return true or false if given string is present in or not
+checkArray() ===> if given variable is array then return true
+getDay() ===> return day of the year from date
+isInternetExplorer() ===> if browser is internet explorer return true
+getMonthShortName() ===> will return array of months' name 3 char name like jan, feb etc
+getMonthFullName() ===> will return array of months' full name
+TimeSince() ===> will return how old the time is from now
+truncate() ===> will only return the content with specified length remaining content will be replaced by ...
+getRandomChars() ===> will give random string of given length
+isImageFile() ===> return true if given file is image
+downloadFile() ===> will make download given file to user
+sendMail() ===> will send email to specified reciepents
+Array2String()  ===> will convert array in to get method string
+r() ===> will display the passed variable recursively
+getFileType() ===> will return file type
+formatSizeUnits() ===> will return size of file in mb kb gb etc.
+sendCURL() ===> send curl request and return response
 for more please check the examples given!
 
 hope it will help you! it is middle ware which can reduce much code!

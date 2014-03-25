@@ -263,6 +263,54 @@ class Utilities {
         return implode($pass); //turn the array into a string
     }
 
+ /**
+     * @param $bytes
+     * @return string
+     */
+    public static function formatSizeUnits($bytes)
+    {
+        if ($bytes >= 1073741824)
+        {
+            $bytes = number_format($bytes / 1073741824, 2) . ' GB';
+        }
+        elseif ($bytes >= 1048576)
+        {
+            $bytes = number_format($bytes / 1048576, 2) . ' MB';
+        }
+        elseif ($bytes >= 1024)
+        {
+            $bytes = number_format($bytes / 1024, 2) . ' KB';
+        }
+        elseif ($bytes > 1)
+        {
+            $bytes = $bytes . ' bytes';
+        }
+        elseif ($bytes == 1)
+        {
+            $bytes = $bytes . ' byte';
+        }
+        else
+        {
+            $bytes = '0 bytes';
+        }
+
+        return $bytes;
+    }
+
+    /**
+     * @param $sFileName
+     * @return string
+     */
+    public static function getFileType( $sFileName )
+    {
+        if( empty( $sFileName ) )
+        {
+            return false;
+        }
+
+        return strtolower( pathinfo( $sFileName , PATHINFO_EXTENSION ) );
+    }
+
 
     /********************************************* Common Functions Over **************************************/
 
